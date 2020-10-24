@@ -8,6 +8,20 @@
             "product_name": "Fancy",
             "price": 20,
             "img": "./img/floc3.jpeg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 457,
+            "product_name": "Modern",
+            "price": 18,
+            "img": "./img/floc2.jpeg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 456,
+            "product_name": "Set of 16",
+            "price": 160,
+            "img": "./img/set.jpeg"
         }
     ]
 }

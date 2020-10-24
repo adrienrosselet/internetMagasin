@@ -196,4 +196,8 @@ img {
     color: white;
     font-weight: bold;
 }
-
+#sky{
+  background-color: #eee;
+  position: absolute;
+  z-index: -1;
+}
