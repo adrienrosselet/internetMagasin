@@ -104,7 +104,7 @@ Vue.component('cart', {
             <p v-if="cartItems.length == 0 && showCart" class="cart-item">
                 Нет товаров
             </p>
-            <cart-item v-for="item of cartItems" :key="item.id_product" :img="imgCart" :cart-item="item" @deleteItm="deleteItm">
+            <cart-item v-for="item of cartItems" :key="item.id_product" :img="item.img" :cart-item="item" @deleteItm="deleteItm">
             </cart-item>
         </div>
         </div>
@@ -116,7 +116,7 @@ Vue.component('cart-item', {
     template: `
     <div class="cart-item">
                     <div class="product-bio">
-                        <img :src="img" alt="Some img">
+                        <img :src="img" alt="snowflake" width="70">
                         <div class="product-desc">
                             <div class="product-title">{{ cartItem.product_name }}</div>
                             <div class="product-quantity">Quantity: {{ cartItem.quantity }}</div>

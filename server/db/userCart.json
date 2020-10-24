@@ -1,5 +1,13 @@
 {
     "amount": 46600,
     "countGoods": 2,
-    "contents": []
+    "contents": [
+        {
+            "quantity": 3,
+            "id_product": 123,
+            "product_name": "Fancy",
+            "price": 20,
+            "img": "./img/floc3.jpeg"
+        }
+    ]
 }
