@@ -3,13 +3,6 @@
     "countGoods": 2,
     "contents": [
         {
-            "quantity": 3,
-            "id_product": 123,
-            "product_name": "Fancy",
-            "price": 20,
-            "img": "./img/floc3.jpeg"
-        },
-        {
             "quantity": 1,
             "id_product": 457,
             "product_name": "Modern",
@@ -17,11 +10,18 @@
             "img": "./img/floc2.jpeg"
         },
         {
+            "quantity": 2,
+            "id_product": 124,
+            "product_name": "Classic",
+            "price": 16,
+            "img": "./img/floc1.jpeg"
+        },
+        {
             "quantity": 1,
-            "id_product": 456,
-            "product_name": "Set of 16",
-            "price": 160,
-            "img": "./img/set.jpeg"
+            "id_product": 123,
+            "product_name": "Fancy",
+            "price": 20,
+            "img": "./img/floc3.jpeg"
         }
     ]
 }

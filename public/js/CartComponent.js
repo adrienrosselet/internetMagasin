@@ -6,7 +6,8 @@ Vue.component('cart', {
           cartUrl: '/getBasket.json',
           cartItems: [],
           imgCart: 'https://placehold.it/50x100',
-          showCart: false
+          showCart: false,
+          tot: 0
       }
     },
     mounted(){
@@ -64,7 +65,6 @@ Vue.component('cart', {
           //     .then(data => {
           //       console.log(data);
           //     });
-
           let find = this.cartItems.find(el => el.id_product === item.id_product);
           if(find.quantity > 1){
           //if(find){
@@ -102,7 +102,7 @@ Vue.component('cart', {
         <button class="btn-cart" type="button" @click="showCart = !showCart">Корзина</button>
         <div class="cart-block" v-show="showCart">
             <p v-if="cartItems.length == 0 && showCart" class="cart-item">
-                Нет товаров
+                Empty cart
             </p>
             <cart-item v-for="item of cartItems" :key="item.id_product" :img="item.img" :cart-item="item" @deleteItm="deleteItm">
             </cart-item>

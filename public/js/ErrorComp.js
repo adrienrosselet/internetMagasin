@@ -1,3 +1,4 @@
+
 Vue.component('error', {
     data(){
         return {

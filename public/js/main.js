@@ -1,5 +1,6 @@
 //const API = 'https://raw.githubusercontent.com/GeekBrainsTutorial/online-store-api/master/responses';
 //const API = 'https://localhost:3000';
+// import Vue from 'vue';
 
 const app = new Vue({
     el: '#app',
@@ -66,7 +67,7 @@ const app = new Vue({
 
     },
     mounted(){
-      
+
 
     }
 
