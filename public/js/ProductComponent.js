@@ -1,4 +1,4 @@
-
+// import Vue from 'vue';
 
 Vue.component('products', {
    data(){
@@ -44,3 +44,6 @@ Vue.component('product', {
             </div>
     `
 })
+export default {
+  name: 'products'
+}

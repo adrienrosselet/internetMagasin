@@ -1,3 +1,4 @@
+// import Vue from 'vue';
 
 Vue.component('error', {
     data(){
@@ -19,3 +20,6 @@ Vue.component('error', {
 </div>
     `
 })
+export default {
+  name: 'error'
+}

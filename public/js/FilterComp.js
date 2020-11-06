@@ -1,4 +1,4 @@
-
+// import Vue from 'vue';
 
 Vue.component('filter-el', {
     data(){
@@ -13,3 +13,6 @@ Vue.component('filter-el', {
                 </button>
             </form>`
 })
+export default {
+  name: 'filterEl'
+}

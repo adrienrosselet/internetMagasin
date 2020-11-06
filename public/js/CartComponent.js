@@ -1,5 +1,5 @@
 // const API = 'https://raw.githubusercontent.com/GeekBrainsTutorial/online-store-api/master/responses';
-
+// import Vue from 'vue';
 Vue.component('cart', {
     data(){
       return {
@@ -130,3 +130,7 @@ Vue.component('cart-item', {
                 </div>
     `
 })
+
+export default {
+  name: 'cart'
+}

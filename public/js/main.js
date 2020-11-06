@@ -1,6 +1,10 @@
 //const API = 'https://raw.githubusercontent.com/GeekBrainsTutorial/online-store-api/master/responses';
 //const API = 'https://localhost:3000';
-// import Vue from 'vue';
+ // import Vue from 'https://cdn.jsdelivr.net/npm/vue/dist/vue.js';
+import cart from './CartComponent.js'
+import filterEl from './FilterComp.js'
+import products from './ProductComponent.js'
+import error from './ErrorComp.js'
 
 const app = new Vue({
     el: '#app',
